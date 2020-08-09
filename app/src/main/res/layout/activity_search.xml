@@ -18,6 +18,7 @@
             android:layout_margin="10dp"
             android:maxLines="1"
             android:hint="Location"
+            android:textColor="#ffffff"
             android:textColorHint="#ffffff"
             android:layout_alignParentLeft="true"
             />
@@ -45,6 +46,8 @@
         android:layout_height="50dp"
         android:id="@+id/search_progressbar"
         android:layout_centerInParent="true"
+        android:visibility="gone"
+        tools:visibility="visible"
         />
 
 </RelativeLayout>
